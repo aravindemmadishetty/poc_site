@@ -1,0 +1,22 @@
+2021-10-29T07:03:31+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 84
+
+2021-10-29T07:05:32+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 84
+
+2021-10-29T07:09:15+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 79
+
+2021-10-29T07:09:17+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 79
+
+2021-10-29T07:09:18+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 79
+
+2021-10-29T07:09:19+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 79
+
+2021-10-29T10:30:21+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_text_input() in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:207
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_display_custom_field('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(15): do_action('woocommerce_bef...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3031): wc_get_template('single-product/...')
+#6 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 207
+

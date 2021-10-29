@@ -1,0 +1,371 @@
+2021-10-28T07:17:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 48 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php:163
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(48): apply_filters('chwc_credential...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php on line 163
+
+2021-10-28T07:19:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 48 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php:163
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(48): apply_filters('chwc_credential...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php on line 163
+
+2021-10-28T07:20:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 48 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php:163
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(48): apply_filters('chwc_credential...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php on line 163
+
+2021-10-28T07:20:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 48 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php:163
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(48): apply_filters('chwc_credential...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php on line 163
+
+2021-10-28T07:21:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 48 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php:163
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(48): apply_filters('chwc_credential...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php on line 163
+
+2021-10-28T07:23:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 48 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php:163
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(48): apply_filters('chwc_credential...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php on line 163
+
+2021-10-28T07:25:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 48 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php:163
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(48): apply_filters('chwc_credential...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php on line 163
+
+2021-10-28T07:25:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 48 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php:163
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(48): apply_filters('chwc_credential...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\edit.php(10): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php on line 163
+
+2021-10-28T07:25:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 48 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php:163
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(48): apply_filters('chwc_credential...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php on line 163
+
+2021-10-28T07:25:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 48 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php:163
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(48): apply_filters('chwc_credential...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php on line 163
+
+2021-10-28T07:30:16+00:00 CRITICAL Uncaught Error: Call to a member function get_attribute() on null in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:73
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\index.php(17): require('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 73
+
+2021-10-28T07:30:17+00:00 CRITICAL Uncaught Error: Call to a member function get_attribute() on null in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:73
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\index.php(17): require('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 73
+
+2021-10-28T07:32:19+00:00 CRITICAL Uncaught Error: Call to a member function get_attribute() on null in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:73
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 73
+
+2021-10-28T07:34:20+00:00 CRITICAL Uncaught Error: Call to a member function get_attribute() on null in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:73
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 73
+
+2021-10-28T07:36:21+00:00 CRITICAL Uncaught Error: Call to a member function get_attribute() on null in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:73
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 73
+
+2021-10-28T07:38:22+00:00 CRITICAL Uncaught Error: Call to a member function get_attribute() on null in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:73
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 73
+
+2021-10-28T07:40:23+00:00 CRITICAL Uncaught Error: Call to a member function get_attribute() on null in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:73
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 73
+
+2021-10-28T07:56:09+00:00 CRITICAL Uncaught Error: Call to a member function get_attribute() on null in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:73
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\index.php(17): require('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 73
+
+2021-10-28T07:56:10+00:00 CRITICAL Uncaught Error: Call to a member function get_attribute() on null in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:73
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\index.php(17): require('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 73
+
+2021-10-28T08:30:25+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_text_input() in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:88
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 88
+
+2021-10-28T08:30:31+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_text_input() in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:88
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\post.php(12): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 88
+
+2021-10-28T08:30:32+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_text_input() in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:88
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 88
+
+2021-10-28T08:30:33+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_text_input() in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:88
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-settings.php(546): include()
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\index.php(17): require('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 88
+
+2021-10-28T11:32:44+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:132
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 132
+
+2021-10-28T11:56:52+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:132
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 132
+
+2021-10-28T11:59:50+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:133
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 133
+
+2021-10-28T12:09:38+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T12:51:41+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T12:52:31+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T12:52:59+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T12:54:04+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T12:54:36+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T12:54:54+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T12:55:23+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T13:02:13+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T13:03:56+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T13:04:05+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T13:09:01+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
+2021-10-28T13:14:55+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:135
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_send_custom_data('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cfcw_cu...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 135
+
