@@ -249,7 +249,7 @@
         ];
 
         //console.log(countries.length)
-        
+           
         function customPlaceDropdown(){
             var ticketType = $('.variations #ticket-type').val();
             if(ticketType){
@@ -297,11 +297,17 @@
             return `<input type=text id="${args['id']}" class="${args['class']}">`
         }
 
+        /**
+         * credentials dropdown creation
+         */
         customPlaceDropdown();
-
         $('.variations #ticket-type').on('change', function(){
             customPlaceDropdown();
         });
+
+        /**
+         * Attendee's Data
+         */
 
         data['attendee_data'].forEach( field => {
             if(field['type']=='dropdown'){
