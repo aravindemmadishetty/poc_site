@@ -250,17 +250,21 @@
 
         //console.log(countries.length)
            
-        function customPlaceDropdown(){
+        function customPlaceCredentialsDropdown(){
             var ticketType = $('.variations #ticket-type').val();
-            if(ticketType){
-                if($('.variations tr.tr-creds')[0]){
-                    $('.variations tr.tr-creds').children().remove();
+            if($('.variations tr.tr-creds')[0]){
+                $('.variations tr.tr-creds').children().remove();
+                if(ticketType){
                     $('.variations tr.tr-creds').append(`<tr class="tr-creds">${customPopulateCredentialsDropdown(ticketType)}</tr>`);
-                }else $('.variations>tbody').append(`<tr class="tr-creds">${customPopulateCredentialsDropdown(ticketType)}</tr>`);
-            }
+                }
+            }else $('.variations>tbody').append(`<tr class="tr-creds">${customPopulateCredentialsDropdown(ticketType)}</tr>`);
+            
         }
         
         function customPopulateCredentialsDropdown(ticketType){
+            if(!(data[ticketType])){
+                return ;
+            }
             var credentials = data[ticketType]['credential'].split('|');
             var ticketTypeId = data[ticketType]['ticket_type'];
 
@@ -300,9 +304,9 @@
         /**
          * credentials dropdown creation
          */
-        customPlaceDropdown();
+        customPlaceCredentialsDropdown();
         $('.variations #ticket-type').on('change', function(){
-            customPlaceDropdown();
+            customPlaceCredentialsDropdown();
         });
 
         /**
@@ -312,7 +316,7 @@
         data['attendee_data'].forEach( field => {
             if(field['type']=='dropdown'){
                 if(field['id']=='attendee_country'){
-                    console.log({field})
+                    //console.log({field})
                     $('.variations tbody').append(`<tr>${customTableCellForFields({
                         ...field,
                         options : countries.map(country => [country.text, country.value]),

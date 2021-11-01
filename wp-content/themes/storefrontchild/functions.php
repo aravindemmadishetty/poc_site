@@ -95,9 +95,9 @@ $custom_text_fields_attendee_data = array(
         'desc_tip' => true,
     ),
     array(
-        'id' => 'attendee_email_adress',
-        'label' => 'Email',
-        'class' => 'cfwc_attendee_email_adress',
+        'id' => 'attendee_zip_code',
+        'label' => 'ZIP Code',
+        'class' => 'cfwc_attendee_zip_code',
         'desc_tip' => true,
     ),
 );
@@ -207,7 +207,7 @@ add_action( 'woocommerce_process_product_meta', 'cfwc_save_custom_field' );
 
  function cfwc_enque_custom_data_script(){
     if(get_the_terms($wc_pro_id, 'product_cat')[0]->name == "woo_event"){
-        wp_enqueue_script('credentials_dropdown_script', get_stylesheet_directory_uri().'/assets/js/credentials-dropdown.js');
+        wp_enqueue_script('credentials_dropdown_script', get_stylesheet_directory_uri().'/assets/js/custom-fields.js');
         wp_localize_script( 'credentials_dropdown_script', 'my_ajax_obj',
             array( 'ajax_url' => admin_url( 'admin-ajax.php' ) ) );
     }
