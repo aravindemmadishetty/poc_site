@@ -1,0 +1,20 @@
+2021-11-05T07:14:08+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::get_result() in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:331
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(305): cfwc_validate_custom_field(false, 27, 1)
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters(true, Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 27, 1, 46, Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(27)
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470) in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 331
+
+2021-11-05T07:40:42+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:332
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(305): cfwc_validate_custom_field(false, 27, 1)
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters(true, Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 27, 1, 46, Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(27)
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 332
+

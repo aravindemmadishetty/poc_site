@@ -1,0 +1,62 @@
+2021-11-09T11:06:40+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 361
+
+2021-11-09T11:09:45+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:323
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(323): implode(',', Array)
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(305): cfwc_validate_custom_field(true, 27, 1)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 27, 1, 46, Array)
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(27)
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#6 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\ in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 323
+
+2021-11-09T11:20:30+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\wp-db.php:1901
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(321): wpdb::query('SELECT order_it...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(305): cfwc_validate_custom_field(true, 27, 1)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 27, 1, 46, Array)
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(27)
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#6 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hoo in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\wp-db.php on line 1901
+
+2021-11-09T11:21:09+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\wp-db.php:1901
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(321): wpdb::query('SELECT order_it...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(305): cfwc_validate_custom_field(true, 27, 1)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 27, 1, 46, Array)
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(27)
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#6 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hoo in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\wp-db.php on line 1901
+
+2021-11-09T11:21:57+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\wp-db.php:1901
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(321): wpdb::query('SELECT order_it...')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(305): cfwc_validate_custom_field(true, 27, 1)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 27, 1, 46, Array)
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(27)
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#6 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hoo in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\wp-db.php on line 1901
+
+2021-11-09T11:43:25+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:328
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php(328): implode(',', Array)
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(305): cfwc_validate_custom_field(true, 27, 1)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 27, 1, 46, Array)
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(27)
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#6 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\ in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 328
+
+2021-11-09T11:52:42+00:00 CRITICAL Uncaught Error: Function name must be a string in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:338
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(305): cfwc_validate_custom_field(true, 27, 1)
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters(true, Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 27, 1, 46, Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(27)
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_ in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 338
+

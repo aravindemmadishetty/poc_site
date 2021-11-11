@@ -1,0 +1,35 @@
+2021-11-10T05:23:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_woo_event_refund(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:462
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(305): custom_woo_event_refund(82)
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\wc-order-functions.php(627): do_action('woocommerce_ord...', 82, 90)
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(1991): wc_create_refund(Array)
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::refund_line_items('')
+#6 D:\xampp\htdoc in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 462
+
+2021-11-10T05:31:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_woo_event_refund(), 1 passed in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:462
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(305): custom_woo_event_refund(73)
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\wc-order-functions.php(627): do_action('woocommerce_ord...', 73, 91)
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(1991): wc_create_refund(Array)
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::refund_line_items('')
+#6 D:\xampp\htdoc in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 462
+
+2021-11-10T07:25:49+00:00 CRITICAL syntax error, unexpected ',' in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 469
+
+2021-11-10T07:25:49+00:00 CRITICAL syntax error, unexpected ',' in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 469
+
+2021-11-10T08:25:11+00:00 CRITICAL Uncaught Error: Call to a member function get_refunds() on bool in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:469
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): custom_woo_event_refund(110, 111)
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\wc-order-functions.php(627): do_action('woocommerce_ord...', 110, 111)
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(1991): wc_create_refund(Array)
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::refund_line_items('')
+#6 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 D:\xampp\htdocs\dev\pocsite\word in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 469
+

@@ -1,0 +1,11 @@
+2021-11-02T06:09:23+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::get_result() in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:384
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): custom_ajax_function('')
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_poc_aja...')
+#4 {main}
+  thrown in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 384
+
+2021-11-02T10:02:16+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\Requests\Transport\cURL.php on line 165
+

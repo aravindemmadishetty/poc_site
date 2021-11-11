@@ -255,7 +255,7 @@
             if($('.variations tr.tr-creds')[0]){
                 $('.variations tr.tr-creds').children().remove();
                 if(ticketType){
-                    $('.variations tr.tr-creds').append(`<tr class="tr-creds">${customPopulateCredentialsDropdown(ticketType)}</tr>`);
+                    $('.variations tr.tr-creds').append(`${customPopulateCredentialsDropdown(ticketType)}`);
                 }
             }else $('.variations>tbody').append(`<tr class="tr-creds">${customPopulateCredentialsDropdown(ticketType)}</tr>`);
             
@@ -285,7 +285,7 @@
             args.options.forEach( ( [option, value] ) => {
                 options += `<option class="attached enabled" value="${value}">${option}</option>`;
             });
-            var html = `<select id = "${args['id']}">${options}</select>`;
+            var html = `<select id = "${args['id']}" name = "${args['id']}">${options}</select>`;
 
             return html;
         }
@@ -298,7 +298,7 @@
         }
 
         function customPopulateTextBox(args){
-            return `<input type=text id="${args['id']}" class="${args['class']}">`
+            return `<input type=text id="${args['id']}" name="${args['id']}" class="${args['class']}">`
         }
 
         /**

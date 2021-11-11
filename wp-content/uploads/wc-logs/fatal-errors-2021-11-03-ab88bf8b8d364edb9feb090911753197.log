@@ -1,0 +1,11 @@
+2021-11-03T11:27:33+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 400
+
+2021-11-03T11:34:27+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php:396
+Stack trace:
+#0 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(303): cfwc_add_custom_data_to_order(Object(WC_Order_Item_Product), 'legacy_values', Array, Object(WC_Order))
+#1 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\dev\pocsite\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(489): do_action('woocommerce_che...', Object(WC_Order_Item_Product), '29d72eef8f5f199...', Array, Object(WC_Order))
+#4 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(436): WC_Checkout->create_order_line_items(Object(WC_Order), Object(WC_Cart))
+#5 D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\plugin in D:\xampp\htdocs\dev\pocsite\wordpress\wp-content\themes\storefrontchild\functions.php on line 396
+
